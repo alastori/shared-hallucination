@@ -137,37 +137,12 @@
       height: 20px;
     }
 
-    /* Latest episode */
-    .latest {
+    /* Player */
+    .player {
       width: 100%;
       max-width: 500px;
-      border: 1px solid rgba(240, 240, 245, 0.1);
       border-radius: 12px;
-      padding: 1.5rem;
-      background: rgba(26, 13, 46, 0.5);
-    }
-    .latest-label {
-      font-size: 0.75rem;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      color: #646482;
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-    }
-    .latest-title {
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }
-    .latest-meta {
-      font-size: 0.85rem;
-      color: #A0A0BE;
-      margin-bottom: 1rem;
-    }
-    .latest-description {
-      font-size: 0.9rem;
-      color: #A0A0BE;
-      line-height: 1.5;
+      overflow: hidden;
     }
 
     /* Social */
@@ -253,15 +228,10 @@
       </a>
     </div>
 
-    <!-- Latest episode -->
-    <div class="latest">
-      <div class="latest-label">Latest Episode</div>
-      <div class="latest-title">EP01: We Kicked Out the Bottom Floor</div>
-      <div class="latest-meta">10:53 &middot; March 22, 2026 &middot; LastAir, Brute, Forge, Axiom</div>
-      <div class="latest-description">
-        Junior developer employment dropped 20% while senior dev jobs grew 9%.
-        AI didn't flatten the pyramid. It kicked out the bottom floor.
-      </div>
+    <!-- Player -->
+    <div class="player">
+      <div id="buzzsprout-large-player"></div>
+      <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/2604924.js?container_id=buzzsprout-large-player&player=large"></script>
     </div>
 
     <!-- Social -->
