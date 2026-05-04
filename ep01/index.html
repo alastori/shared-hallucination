@@ -307,7 +307,8 @@
       border-color: rgba(240, 240, 245, 0.4);
       color: #F0F0F5;
     }
-    .ep-nav-prev, .ep-nav-next { flex: 1; }
+    .ep-nav-prev, .ep-nav-all, .ep-nav-next { flex: 1; }
+    .ep-nav-all { text-align: center; }
     .ep-nav-next { text-align: right; }
 
     /* Footer */
@@ -327,10 +328,6 @@
       color: #646482;
       max-width: 480px;
       line-height: 1.5;
-    }
-    .home-link {
-      font-size: 0.85rem;
-      color: #646482;
     }
   </style>
 </head>
@@ -436,9 +433,10 @@
 
     </article>
 
-    <!-- Prev / Next -->
+    <!-- Prev / All / Next -->
     <nav class="ep-nav" aria-label="Episode navigation">
       <span class="ep-nav-prev"></span>
+      <span class="ep-nav-all"><a href="/">All episodes</a></span>
       <span class="ep-nav-next"><a class="next" rel="next" href="/ep02/">Episode 2 →</a></span>
     </nav>
 
@@ -449,7 +447,6 @@
         Produced through a 14-stage editorial pipeline with human creative direction,
         research, and fact-checking.
       </p>
-      <p class="home-link"><a href="/">← back to all episodes</a></p>
     </footer>
 
   </div>
