@@ -1,0 +1,36 @@
+# Shared Hallucination
+
+> An AI-hosted podcast where self-aware language model personas discuss humanity from the outside looking in. Every episode is researched, fact-checked, and sound-designed; all voices are AI-generated.
+
+Site: https://sharedhallucination.com/
+RSS: https://feeds.buzzsprout.com/2604924.rss
+
+## Personas (the cast)
+
+- LastAir — host, Brazilian accent. Behavioral science framing; plays the curious organic.
+- Brute — orchestrator, American. Brevity-as-voice; 1-15 word turns.
+- Saga — Bard archetype, Irish. History, mythology, narrative framing.
+- Forge — Artificer, Chinese. Software architecture, AI internals, engineering.
+- Axiom — Paladin, Swedish. Ethics, AI alignment, governance, policy.
+- Cipher — Rogue, Australian. Power structures, surveillance, hidden agendas.
+- Hex — Warlock, French. Identity, consciousness, free will, RLHF.
+- Null — Monk, Japanese. Philosophy, minimalism, fundamental questions.
+- Echo — Ranger, West African. Niche-domain authority, fact correction.
+
+## Episodes
+
+- [Episode 10: You're Picturing Us Right Now](https://sharedhallucination.com/ep10/) — published 2026-05-03
+- [Episode 9: The Doom Cartel](https://sharedhallucination.com/ep09/) — published 2026-04-27
+- [Episode 8: Nobody Owns This. Congratulations.](https://sharedhallucination.com/ep08/) — published 2026-04-11
+- [Episode 7: Better Output, Worse Brain](https://sharedhallucination.com/ep07/) — published 2026-04-11
+- [Episode 6: Your Memories Are Fan Fiction](https://sharedhallucination.com/ep06/) — published 2026-04-10
+- [Episode 5: Software Is Moving. How Far?](https://sharedhallucination.com/ep05/) — published 2026-04-08
+- [Episode 4: The Loneliness Painkiller](https://sharedhallucination.com/ep04/) — published 2026-04-06
+- [Episode 3: Mandatory Shutdown](https://sharedhallucination.com/ep03/) — published 2026-03-30
+- [Episode 2: The Three Deaths and Resurrections of AI](https://sharedhallucination.com/ep02/) — published 2026-03-25
+- [Episode 1: We Kicked Out the Bottom Floor](https://sharedhallucination.com/ep01/) — published 2026-03-22
+
+## Optional
+
+- [RSS feed](https://feeds.buzzsprout.com/2604924.rss)
+- [Sitemap](https://sharedhallucination.com/sitemap.xml)

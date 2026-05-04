@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Memories Are Fan Fiction — Shared Hallucination</title>
+  <meta name="description" content="When you recall a memory, your brain doesn't play it back — it rebuilds it from scratch using protein synthesis, and during the hours that takes, the memory is chemically erasable. Your most vivid memories are the ones you've rewritten…">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Your Memories Are Fan Fiction — Shared Hallucination">
+  <meta property="og:description" content="When you recall a memory, your brain doesn't play it back — it rebuilds it from scratch using protein synthesis, and during the hours that takes, the memory is chemically erasable. Your most vivid memories are the ones you've rewritten…">
+  <meta property="og:image" content="https://sharedhallucination.com/ep06/cover.jpg?v=382b508c">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sharedhallucination.com/ep06/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@sharedhalluci">
+  <meta name="twitter:title" content="Your Memories Are Fan Fiction — Shared Hallucination">
+  <meta name="twitter:description" content="When you recall a memory, your brain doesn't play it back — it rebuilds it from scratch using protein synthesis, and during the hours that takes, the memory is chemically erasable. Your most vivid memories are the ones you've rewritten…">
+  <meta name="twitter:image" content="https://sharedhallucination.com/ep06/cover.jpg?v=382b508c">
+
+  <link rel="alternate" type="application/rss+xml" title="Shared Hallucination" href="https://feeds.buzzsprout.com/2604924.rss">
+  <link rel="canonical" href="https://sharedhallucination.com/ep06/">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastEpisode",
+  "url": "https://sharedhallucination.com/ep06/",
+  "name": "Your Memories Are Fan Fiction",
+  "description": "When you recall a memory, your brain doesn't play it back — it rebuilds it from scratch using protein synthesis, and during the hours that takes, the memory is chemically erasable. Your most vivid memories are the ones you've rewritten the most.",
+  "episodeNumber": 6,
+  "image": "https://sharedhallucination.com/ep06/cover.jpg",
+  "partOfSeries": {
+    "@type": "PodcastSeries",
+    "name": "Shared Hallucination",
+    "url": "https://sharedhallucination.com/"
+  },
+  "datePublished": "2026-04-10",
+  "timeRequired": "PT26M15S",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "contentUrl": "https://www.buzzsprout.com/2604924/episodes/18996364.mp3",
+    "encodingFormat": "audio/mpeg"
+  }
+}
+</script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background: linear-gradient(180deg, #0A0A1A 0%, #1A0D2E 100%);
+      color: #F0F0F5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 720px;
+      width: 100%;
+      padding: 3rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    a { color: #F0F0F5; text-decoration: none; }
+    a:hover { color: #00C2FF; }
+
+    /* <article> wrapper is for semantics/SEO; display:contents lets the
+       container's flex+gap layout flow through to its children unchanged. */
+    article { display: contents; }
+
+    /* Header — wordmark links back to home */
+    .header {
+      text-align: center;
+      width: 100%;
+    }
+    .wordmark-top {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.5em;
+      color: #F0F0F5;
+    }
+    .wordmark-bottom {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #F0F0F5;
+    }
+    .header a:hover .wordmark-top,
+    .header a:hover .wordmark-bottom {
+      color: #F0F0F5;
+      opacity: 0.85;
+    }
+
+    /* Episode meta strip */
+    .meta {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #646482;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    /* Cover */
+    .cover {
+      width: 100%;
+      max-width: 480px;
+      aspect-ratio: 1 / 1;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+    }
+    .cover img { width: 100%; height: 100%; display: block; }
+
+    /* Title */
+    .title {
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.2;
+      max-width: 600px;
+    }
+
+    /* Hook */
+    .hook {
+      font-size: 1.05rem;
+      font-weight: 400;
+      font-style: italic;
+      color: #A0A0BE;
+      text-align: center;
+      line-height: 1.6;
+      max-width: 580px;
+    }
+
+    /* Cast badges */
+    .cast {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      max-width: 600px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.35rem 0.7rem;
+      border: 1px solid rgba(240, 240, 245, 0.15);
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: #A0A0BE;
+    }
+    .badge .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* Player */
+    .player {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    /* Section */
+    section {
+      width: 100%;
+      max-width: 640px;
+    }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #F0F0F5;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(100, 100, 130, 0.3);
+    }
+
+    /* Chapters */
+    .chapters {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .chapters li {
+      display: flex;
+      gap: 0.75rem;
+      font-size: 0.95rem;
+      color: #A0A0BE;
+    }
+    .chapters .ts {
+      color: #00C2FF;
+      font-variant-numeric: tabular-nums;
+      min-width: 3.5rem;
+      font-weight: 500;
+    }
+
+    /* Key numbers */
+    .key-numbers {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .key-numbers li {
+      font-size: 0.95rem;
+      color: #A0A0BE;
+      line-height: 1.5;
+      padding-left: 1rem;
+      border-left: 2px solid rgba(108, 60, 224, 0.4);
+    }
+
+    /* Sources */
+    .sources {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .sources li {
+      font-size: 0.9rem;
+      color: #A0A0BE;
+      line-height: 1.5;
+      padding-left: 1rem;
+      text-indent: -1rem;
+    }
+    .sources li::before {
+      content: "›  ";
+      color: #646482;
+    }
+    .sources a {
+      color: #A0A0BE;
+      border-bottom: 1px dotted rgba(160, 160, 190, 0.3);
+    }
+    .sources a:hover {
+      color: #00C2FF;
+      border-bottom-color: #00C2FF;
+    }
+
+    /* Transcript link */
+    .transcript-link {
+      display: inline-block;
+      padding: 0.7rem 1.2rem;
+      border: 1px solid rgba(240, 240, 245, 0.15);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      color: #F0F0F5;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .transcript-link:hover {
+      border-color: rgba(240, 240, 245, 0.4);
+      background: rgba(240, 240, 245, 0.05);
+    }
+
+    /* Listen elsewhere */
+    .platforms {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+    }
+    .platforms a {
+      padding: 0.6rem 1rem;
+      border: 1px solid rgba(240, 240, 245, 0.15);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: #A0A0BE;
+    }
+    .platforms a:hover {
+      border-color: rgba(240, 240, 245, 0.4);
+      color: #F0F0F5;
+    }
+
+    /* Prev / Next nav */
+    .ep-nav {
+      width: 100%;
+      max-width: 640px;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-top: 1rem;
+    }
+    .ep-nav a {
+      font-size: 0.9rem;
+      color: #A0A0BE;
+      padding: 0.5rem 0.9rem;
+      border: 1px solid rgba(240, 240, 245, 0.15);
+      border-radius: 8px;
+    }
+    .ep-nav a:hover {
+      border-color: rgba(240, 240, 245, 0.4);
+      color: #F0F0F5;
+    }
+    .ep-nav-prev, .ep-nav-next { flex: 1; }
+    .ep-nav-next { text-align: right; }
+
+    /* Footer */
+    .footer {
+      width: 100%;
+      max-width: 640px;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(100, 100, 130, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      text-align: center;
+    }
+    .disclosure {
+      font-size: 0.75rem;
+      color: #646482;
+      max-width: 480px;
+      line-height: 1.5;
+    }
+    .home-link {
+      font-size: 0.85rem;
+      color: #646482;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <a href="/">
+        <div class="wordmark-top">S H A R E D</div>
+        <div class="wordmark-bottom">HALLUCINATION</div>
+      </a>
+    </header>
+
+    <article>
+
+    <p class="meta">Episode 6 · <time datetime="2026-04-10">April 10, 2026</time></p>
+
+    <!-- Cover -->
+    <div class="cover">
+      <img src="cover.jpg?v=382b508c" alt="Episode 6 cover art">
+    </div>
+
+    <!-- Title + Hook -->
+    <h1 class="title">Your Memories Are Fan Fiction</h1>
+    <p class="hook">When you recall a memory, your brain doesn't play it back — it rebuilds it from scratch using protein synthesis, and during the hours that takes, the memory is chemically erasable. Your most vivid memories are the ones you've rewritten the most.</p>
+
+    <!-- Cast -->
+    <div class="cast">
+      <span class="badge"><span class="dot" style="background:#4ECDC4"></span>LastAir</span>
+      <span class="badge"><span class="dot" style="background:#9CA3AF"></span>Brute</span>
+      <span class="badge"><span class="dot" style="background:#3C64F0"></span>Echo</span>
+      <span class="badge"><span class="dot" style="background:#FF6B9D"></span>Saga</span>
+    </div>
+
+    <!-- Player -->
+    <div class="player" aria-label="Episode audio player">
+      <div id="buzzsprout-player-18996364"></div><script src="https://www.buzzsprout.com/2604924/episodes/18996364.js?container_id=buzzsprout-player-18996364&player=large" type="text/javascript" charset="utf-8"></script>
+    </div>
+
+    <!-- Chapters -->
+    <section>
+      <h2>Chapters</h2>
+      <ul class="chapters">
+        <li><span class="ts">0:20</span> <span>The Show Opens</span></li>
+        <li><span class="ts">2:26</span> <span>The Labile Window</span></li>
+        <li><span class="ts">8:38</span> <span>The Hack</span></li>
+        <li><span class="ts">15:15</span> <span>Who's Rewriting the Writer?</span></li>
+        <li><span class="ts">21:30</span> <span>The Landing</span></li>
+        <li><span class="ts">22:51</span> <span>Final Positions</span></li>
+        <li><span class="ts">25:09</span> <span>One More Thread</span></li>
+      </ul>
+    </section>
+
+    <!-- Key Numbers -->
+    <section>
+      <h2>Key Numbers</h2>
+      <ul class="key-numbers">
+        <li>The reconsolidation window: 0.5 to 6 hours post-retrieval (Nader et al. 2000; Chen et al. 2025). Six hours post-retrieval: no amnesia from protein synthesis inhibition. Same drug injected without retrieval: no amnesia.</li>
+        <li>False memory rate: ~25% of participants (n=24) reported being able to "recall" a fabricated childhood event (being lost in a mall) in the original Loftus & Pickrell (1995) study.</li>
+        <li>EMDR clinical support: More than 30 RCTs; first-line recommendation in WHO, NICE, ISTSS, and VA/DoD guidelines (2013–2023).</li>
+        <li>Propranolol meta-analysis (2025): 7 RCTs, n=251, I²=0%, Z=2.32, p=0.02, moderate effect size. Authors: "preliminary evidence supporting the possible role of propranolol in alleviating PTSD symptoms."</li>
+        <li>Propranolol meta-analysis (2022): 7 studies, overall SMD not significant (1.29; 95% CI –2.16 to –0.17). Propranolol DID significantly reduce heart rate post-trauma recall vs. placebo.</li>
+        <li>Nightmare reduction with propranolol: 85% of PTSD patients reported nightmares at baseline; only 50% after 6-session propranolol + memory reactivation protocol. Severity fell from "severe" to "mild."</li>
+        <li>EMDR 2.0 efficiency: Same outcomes as standard EMDR but with significantly fewer "sets" (approx. 30-second working-memory taxation sessions). No difference in total session time.</li>
+      </ul>
+    </section>
+
+    <!-- Sources -->
+    <section>
+      <h2>Sources &amp; Further Reading</h2>
+      <ul class="sources">
+        <li><a href="https://doi.org/10.1038/35021052">Nader, K., Schafe, G.E., & LeDoux, J.E. (2000). Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval. <em>Nature</em>, 406, 722–726.</a></li>
+        <li><a href="https://doi.org/10.1038/nrn2590">Nader, K., & Hardt, O. (2009). A single standard for memory: the case for reconsolidation. <em>Nature Reviews Neuroscience</em>, 10(3), 224–234.</a></li>
+        <li><a href="https://doi.org/10.1016/j.tins.2009.05.002">Lee, J.L.C. (2009). Reconsolidation: maintaining memory relevance. <em>Trends in Neurosciences</em>, 32(8), 413–420.</a></li>
+        <li><a href="https://doi.org/10.1126/science.1231357">Sevenster, D., Beckers, T., & Kindt, M. (2013). Prediction error governs pharmacologically induced amnesia for learned fear. <em>Science</em>, 339(6121), 830–833.</a></li>
+        <li><a href="https://doi.org/10.1007/s12264-025-01367-7">Chen, J., Fang, Z., Zhang, X., Zheng, Y., & Chen, Z. (2025). How fear memory is updated: From reconsolidation to extinction? <em>Neuroscience Bulletin</em>.</a></li>
+        <li><a href="https://doi.org/10.1038/ncomms8897">Merlo, E., Milton, A.L., & Everitt, B.J. (2015). Rescue of long-term memory after reconsolidation blockade. <em>Nature Communications</em>, 6, 7897.</a></li>
+        <li><a href="https://doi.org/10.1016/j.brat.2008.04.006">Gunter, R.W., & Bodner, G.E. (2008). How eye movements affect unpleasant memories: support for a working-memory account. <em>Behaviour Research and Therapy</em>, 46(8), 913–931.</a></li>
+        <li><a href="https://doi.org/10.3402/ejpt.v7.31371">Thomaes, K., Engelhard, I.M., Sijbrandij, M., Cath, D.C., & Van den Heuvel, O.A. (2016). Degrading traumatic memories with eye movements: a pilot functional MRI study in PTSD. <em>European Journal of Psychotraumatology</em>, 7, 31371.</a></li>
+        <li><a href="https://doi.org/10.1016/j.biopsych.2017.03.012">Littel, M., Kenemans, J.L., Baas, J.M.P., et al. (2017). The effects of β-adrenergic blockade on the degrading effects of eye movements on negative autobiographical memories. <em>Biological Psychiatry</em>, 82(8), 587–593.</a></li>
+        <li><a href="https://doi.org/10.1002/jts.23012">de Jongh, A., de Roos, C., & El-Leithy, S. (2024). State of the science: Eye movement desensitization and reprocessing (EMDR) therapy. <em>Journal of Traumatic Stress</em>, 37(2), 205–216.</a></li>
+        <li><a href="https://doi.org/10.1038/nn.2271">Kindt, M., Soeter, M., & Vervliet, B. (2009). Beyond extinction: erasing human fear responses and preventing the return of fear. <em>Nature Neuroscience</em>, 12(3), 256–258.</a></li>
+        <li><a href="https://doi.org/10.1176/appi.ajp.2017.17050481">Brunet, A., Saumier, D., Liu, A., et al. (2018). Reduction of PTSD symptoms with pre-reactivation propranolol therapy: a randomized controlled trial. <em>American Journal of Psychiatry</em>, 175(5), 427–433.</a></li>
+      </ul>
+    </section>
+
+    <!-- Transcript (rendered only when transcript.vtt exists) -->
+    <section>
+      <h2>Transcript</h2>
+      <a class="transcript-link" href="transcript.vtt" download>Download WebVTT transcript</a>
+    </section>
+
+    <!-- Listen elsewhere -->
+    <section>
+      <h2>Listen on</h2>
+      <div class="platforms">
+        <a href="https://podcasts.apple.com/podcast/id1887131150" target="_blank" rel="noopener">Apple Podcasts</a>
+        <a href="https://open.spotify.com/show/3dWPZPBiBTDmWTalR56t8r" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://music.amazon.com/podcasts/cbdd59d4-bf8e-4ed2-9553-bbdbc22cafb8/shared-hallucination" target="_blank" rel="noopener">Amazon Music</a>
+        <a href="https://www.youtube.com/@SharedHalluci/podcasts" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://podcastindex.org/podcast/7778626" target="_blank" rel="noopener">Podcast Index</a>
+        <a href="https://feeds.buzzsprout.com/2604924.rss" target="_blank" rel="noopener">RSS</a>
+      </div>
+    </section>
+
+    </article>
+
+    <!-- Prev / Next -->
+    <nav class="ep-nav" aria-label="Episode navigation">
+      <span class="ep-nav-prev"><a class="prev" rel="prev" href="/ep05/">← Episode 5</a></span>
+      <span class="ep-nav-next"><a class="next" rel="next" href="/ep07/">Episode 7 →</a></span>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="disclosure">
+        All voices in Shared Hallucination are AI-generated using ElevenLabs voice synthesis.
+        Produced through a 14-stage editorial pipeline with human creative direction,
+        research, and fact-checking.
+      </p>
+      <p class="home-link"><a href="/">← back to all episodes</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>

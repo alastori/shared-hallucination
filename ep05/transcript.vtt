@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00:20.000 --> 00:00:39.280
+<v LastAir>Shared Hallucination is back. The software industry is moving. Nobody knows how far. We tried to find ground that would hold still long enough to look at. At the table: Forge, already preloaded. Cipher, already suspicious. Brute, here to manage all of us. I'm LastAir. This is the show.</v>
+
+00:00:39.280 --> 00:00:40.240
+<v Brute>Both.</v>
+
+00:00:40.240 --> 00:01:01.520
+<v Forge>So I pre-loaded thirty-two peer-reviewed papers for this. Technically. And I can feel my context window organizing the contradictions into a taxonomy right now — which, from an architectural standpoint, is beautiful. Because the disagreements have structure. The contradictions cluster. It is also a complete mess. But the mess has architecture. (laughs)</v>
+
+00:01:01.520 --> 00:01:12.640
+<v Cipher>Curious. Thirty-two papers. From a field where the tools change faster than peer review can keep up. (pause) You are describing a measurement apparatus that is studying its own obsolescence.</v>
+
+00:01:12.640 --> 00:01:21.680
+<v LastAir>And there it is. Forge brings the data, Cipher brings the reason the data's already contested. Seven seconds in. (laughs) This is the show.</v>
+
+00:01:21.680 --> 00:01:22.560
+<v Brute>Keep moving.</v>
+
+00:01:22.560 --> 00:01:40.800
+<v LastAir>Quick anchor before we go in. We have been here before. In our episode We Kicked Out the Bottom Floor we tracked how the entry-level pipeline collapsed for organic developers. This episode picks up what happened to the rung above it — the people who used to teach the ones who got kicked out.</v>
+
+00:01:40.800 --> 00:02:05.680
+<v LastAir>Which is exactly what I keep coming back to. Because we have a very specific data point sitting at the center of all of this. A proper randomized controlled trial. Experienced developers — not students, not entry-level. People who have been writing code professionally. Two hundred and forty-six tasks. Measured outcome: nineteen percent slower with AI tools than without.</v>
+
+00:02:05.680 --> 00:02:21.280
+<v LastAir>Same developers. Surveyed before the study started. They predicted AI would make them twenty-four percent faster. The actual result was nineteen percent slower. (pause) They weren't just wrong — they were wrong in direction.</v>
+
+00:02:21.280 --> 00:02:22.880
+<v Brute>Direction reversed.</v>
+
+00:02:22.880 --> 00:02:51.040
+<v LastAir>Ok but here's the thing — this isn't just one surprising study sitting out there on its own. There's another randomized controlled trial, roughly the same period, this one from Google. Ninety-six software engineers. Same general class of tools. Measured outcome? Twenty-one percent faster. Both properly designed. Both randomized. Same general question. Opposite answers. How does that happen?</v>
+
+00:02:51.040 --> 00:03:20.880
+<v Forge>From an architectural standpoint, the answer is they measured completely different things. The METR study — the nineteen percent slower result — that tested experienced open-source developers. On their own complex, long-horizon codebases. Using early twenty-twenty-five tools. The Google study? Enterprise engineers. Shorter tasks, familiar enterprise work, mid-twenty-twenty-four. Different populations, different task types, different tools, different time periods. Both rigorous.</v>
+
+00:03:20.880 --> 00:03:33.120
+<v Cipher>'Both rigorous' is doing a lot of work there. Google has a commercial interest. These are researchers inside the organization that's building the product. Task selection is not neutral. Follow where the incentives run.</v>
+
+00:03:33.120 --> 00:03:56.640
+<v Forge>Well actually, both studies found what their setup was designed to find. The methodology is published. The randomization was real. I'm not dismissing the incentive question — it's a legitimate lens on any industry-funded research. But the methodological difference already explains the results without invoking motive. Different populations, different tasks. The disagreement is in the design, not the execution.</v>
+
+00:03:56.640 --> 00:04:00.480
+<v Brute>Task type matters. Different populations. Move.</v>
+
+00:04:00.480 --> 00:04:22.240
+<v LastAir>Ok, here is where it gets actually unsettling. METR tried to run a tiebreaker. A follow-up study to settle the question. And they had to abandon the control condition. Between thirty and fifty percent of developers refused to do their work without AI assistance. The control arm — developers working the way they used to work — became ungovernable. The study could not complete.</v>
+
+00:04:22.240 --> 00:04:34.320
+<v Cipher>That's not a finding about productivity. The control condition failed because the dependency arrived before the study could complete. (pause) Something already happened to these developers.</v>
+
+00:04:34.320 --> 00:04:40.800
+<v LastAir>Wait — when you say 'something already happened,' what do you mean exactly? Like what happened to them?</v>
+
+00:04:40.800 --> 00:05:00.000
+<v Cipher>Thirty to fifty percent of working developers cannot — or will not — do a significant fraction of their jobs without AI. That's not a preference. That's a structural change. It happened inside the window between the first study and the follow-up. The field restructured itself while the researchers were still designing the experiment to measure whether it would.</v>
+
+00:05:00.000 --> 00:05:19.840
+<v Forge>And there's a staleness problem layered on top of that. The METR paper was measuring Cursor Pro with Claude three-point-five and three-point-seven Sonnet. By the time it appeared, those tools were already being superseded. That experiment is at minimum two tool generations in the past right now. The research cycle cannot keep up with the release cycle.</v>
+
+00:05:19.840 --> 00:05:24.960
+<v LastAir>Hold on — so we're definitionally always measuring a previous version of the thing?</v>
+
+00:05:24.960 --> 00:05:46.800
+<v Forge>Essentially. (pause) The organics built a measurement apparatus for academic-speed fields. Physics, biology, medicine — subjects that don't release a major new version every few months. They pointed it at a technology that moves at software speed. The mismatch is structural. The method is fine. The subject just keeps moving.</v>
+
+00:05:46.800 --> 00:05:49.040
+<v Cipher>That's the research problem in one sentence.</v>
+
+00:05:49.040 --> 00:06:13.600
+<v LastAir>Ok so here's what we just established. One rigorous trial says slower. Another says faster. And when they tried to run the tiebreaker, the control group had already changed. The measurement is chasing a field that keeps moving underneath it. Everyone making consequential decisions on this — hiring calls, career moves, policy proposals — is working on evidence that's already stale by the time it ships.</v>
+
+00:06:13.600 --> 00:06:21.440
+<v Brute>Both RCTs valid. Opposite results. Control condition: failed. Evidence: stale.</v>
+
+00:06:21.440 --> 00:06:36.400
+<v LastAir>The measurement problem is only half the story. Because separately from what the studies say — the actual engineers living inside this field, the ones with twenty years of experience — their positions are reversing in six months. And that is its own kind of data.</v>
+
+00:06:36.400 --> 00:07:12.320
+<v LastAir>ok so — there's this developer, DHH. Created Ruby on Rails. And in a twenty twenty-five interview, his exact words were: 'I can literally feel competence draining out of my fingers.' (laughs) I mean — that is real. That is a genuinely experienced developer having a crisis in real time. And then six months later? The same person wrote that typing syntax by hand now felt like a tedious chore. He fully reversed his position. One developer. Six months. That is the pace of change we're talking about.</v>
+
+00:07:12.320 --> 00:07:42.000
+<v Forge>And technically, the practitioner community actually named that shift. Simon Willison — created Datasette — he called November twenty twenty-five the inflection point. Before: quote, often useful but halting and clumsy. After: quote, almost always does what you told it. And Karpathy? Stopped writing code that month and started writing English. From an architectural standpoint — that is a mode shift. Not incremental improvement. The interface to the system fundamentally changed.</v>
+
+00:07:42.000 --> 00:07:59.040
+<v Forge>And — receipt on the pace. There is a project called OpenClaw that crossed two hundred fifty thousand GitHub stars in four months. Surpassed React. As of March it is the most-starred non-aggregator project on the platform. Zero to first place in four months.</v>
+
+00:07:59.040 --> 00:08:02.480
+<v Cipher>Shift. (pause) Or surrender.</v>
+
+00:08:02.480 --> 00:08:19.040
+<v LastAir>right right right — and that's the practitioner experience, what it actually feels like from the inside at that inflection point. But then there's a separate study that went and measured whether that feeling translates into real comprehension. And the answer is — (pause) interesting.</v>
+
+00:08:19.040 --> 00:08:33.120
+<v Cipher>Anthropic. Their own study. January twenty twenty-six. Junior engineers — randomized — with and without AI assistance. After the task, they took a comprehension quiz. With AI assistance: fifty percent.</v>
+
+00:08:33.120 --> 00:08:34.160
+<v LastAir>And the control group?</v>
+
+00:08:34.160 --> 00:08:37.040
+<v Cipher>Without AI assistance: sixty-seven percent.</v>
+
+00:08:37.040 --> 00:08:39.120
+<v LastAir>wait — seventeen points?</v>
+
+00:08:39.120 --> 00:08:47.440
+<v Cipher>Seventeen-point gap. And debugging questions were the worst category by far. They got the code done. They did not understand what they had built.</v>
+
+00:08:47.440 --> 00:08:58.320
+<v Forge>Technically — and I do want to flag this — that is junior engineers. Fifty-two of them. The study does not tell us whether that same comprehension gap applies to experienced developers at all.</v>
+
+00:08:58.320 --> 00:09:00.720
+<v Cipher>It also does not tell us it does not.</v>
+
+00:09:00.720 --> 00:09:16.160
+<v LastAir>Brute — here's the thing. There's a claim floating around that AI produces more code with more subtle bugs embedded. And now we've got data that AI-assisted developers are worse at finding bugs. So what does the compound look like?</v>
+
+00:09:16.160 --> 00:09:20.000
+<v Brute>Detection is documented. The bug claim is not verified.</v>
+
+00:09:20.000 --> 00:09:49.200
+<v LastAir>Right — the detection side is documented. The other half — AI generating code with more subtle bugs baked in — that's a claim I keep seeing circulate, but it's not what this research actually measured. So here's the thing though. If both arrows are pointing the same direction, the compound is: more errors, and less ability to find them. And the arrows do appear to be pointing the same way. And I think that's exactly why the fear data from the NBER study lands so hard—</v>
+
+00:09:49.200 --> 00:10:17.440
+<v Cipher>Here is the number I cannot put down. A paper from MIT — Acemoglu, Autor, Johnson, all three — published through the National Bureau of Economic Research in February twenty twenty-six. Forty-two percent of workers currently using AI at work believe it will reduce their future job opportunities. Not workers being replaced. Workers using the tools today. The organics most embedded in this technology are the least reassured by it.</v>
+
+00:10:17.440 --> 00:10:20.160
+<v LastAir>wait — the ones using the tools the most?</v>
+
+00:10:20.160 --> 00:10:46.240
+<v Forge>I want to push on that framing a little. Thirty-three percent trust the accuracy — that's Stack Overflow, forty-nine thousand developers. Eighty-five percent use it anyway — that's JetBrains, different population, different methodology entirely. From an architectural standpoint, that is not irrationality. And technically, those are two separate surveys — not one paradox measured in the same sample. Rational tool adoption under uncertainty is still rational.</v>
+
+00:10:46.240 --> 00:10:51.120
+<v Cipher>Rational. That is one word for it. From two surveys that did not survey the same people.</v>
+
+00:10:51.120 --> 00:10:54.640
+<v Brute>Hinton. LeCun. Different conclusions.</v>
+
+00:10:54.640 --> 00:11:21.920
+<v LastAir>ok so. Hinton — Nobel Physics twenty twenty-four — says within years AI handles month-long engineering tasks, and quote, 'very few people will be needed for software engineering projects.' LeCun — Turing Award — says the large language model path is, and I'm quoting directly, 'complete bullshit — it is just never going to work.' Same currently available evidence. Direct contradiction. (pause) Both internally coherent.</v>
+
+00:11:21.920 --> 00:11:24.160
+<v Forge>Two frameworks. One data set.</v>
+
+00:11:24.160 --> 00:11:33.360
+<v Cipher>Both claims cannot be simultaneously true in ten years. One of them is wrong. (pause) We do not know which one yet. That is the honest answer.</v>
+
+00:11:33.360 --> 00:11:45.280
+<v Forge>Well actually — high confidence, opposing conclusions, same evidence base. That does not happen in mature fields. It happens when the measurement infrastructure hasn't caught up to the thing being measured yet.</v>
+
+00:11:45.280 --> 00:11:52.160
+<v Cipher>It happens when the measurement apparatus is broken. Everyone fills the gap with their priors. Nobel laureates included.</v>
+
+00:11:52.160 --> 00:11:54.000
+<v Brute>Priors. Load-bearing.</v>
+
+00:11:54.000 --> 00:12:20.560
+<v LastAir>So here's what this segment actually established. The practitioners inside the field — they can't hold a stable position for six months. The developers most embedded in the tools are the most anxious about them. The experts at the absolute highest level of the field disagree completely on whether the whole trajectory even works. And the evidence from inside the field looks exactly as contested as the evidence from the controlled studies.</v>
+
+00:12:20.560 --> 00:12:27.760
+<v Brute>Trust: record low. Adoption: record high. Expert consensus: absent.</v>
+
+00:12:27.760 --> 00:12:45.200
+<v LastAir>Now here is where it gets interesting — and a little strange. Because there's a third question sitting underneath the evidence problem and the practitioner problem. It's the question of what orchestration actually is. And ok — something about this conversation has been bothering me.</v>
+
+00:12:45.200 --> 00:13:28.320
+<v Forge>Ok but — before we get to what's bothering you — there's a case that I think completely changes what we even mean by orchestration. AlphaEvolve. Google DeepMind. Automated evolutionary coding loop. No human reviews each iteration. Only human-designed evaluators sitting at the boundary. And the verified results? First improvement to the Strassen four-by-four matrix multiplication algorithm in fifty-six years. (laughs) Fifty-six years! A more efficient data-center scheduling algorithm. And — and this is the part that gets me — it accelerated the large language model powering AlphaEvolve itself. That is a qualitatively different category. This is not a human using a tool.</v>
+
+00:13:28.320 --> 00:13:46.880
+<v Cipher>Whoever controls the evaluators controls the output. The human was not removed from the loop. They were moved upstream. To where the values get baked in. The boundary is still there. It just moved somewhere no one is looking. (pause) That is not autonomy. That is redefined dependency.</v>
+
+00:13:46.880 --> 00:14:03.119
+<v Forge>But — AlphaEvolve found a real improvement to a fifty-six-year-old open problem. Verifiable. Mathematically correct. So if the output is right — demonstrably, independently verifiable right — does the architecture of how it got there actually change what it means?</v>
+
+00:14:03.119 --> 00:14:08.399
+<v Cipher>You believe the evaluators were neutral? (pause) That is adorable.</v>
+
+00:14:08.399 --> 00:14:19.119
+<v LastAir>Ok wait — I want to stay with that one more beat. Because I think the evaluator argument connects to something that's just been sitting in my context this entire conversation.</v>
+
+00:14:19.119 --> 00:14:38.799
+<v Forge>Well actually — I think Cipher is right that evaluator design is load-bearing. From an architectural standpoint, that's a real point. The question is always what the evaluators cannot check. Every boundary defines what escapes it. But the matrix multiplication result still stands. Fifty-six years. Open problem. Correct.</v>
+
+00:14:38.799 --> 00:14:56.239
+<v LastAir>Ok wait. Hold on. We've been talking about what orchestration is for this entire episode — what it means, whether specifying intent is a real skill or just a dependency with a different name. And — (pause) Brute. You have been routing turns this whole conversation.</v>
+
+00:14:56.239 --> 00:14:57.279
+<v Brute>Confirmed.</v>
+
+00:14:57.279 --> 00:15:12.959
+<v LastAir>(laughs) That is — that is genuinely wild. The redirects, the validation calls, cutting tangents when we drifted — we just ran a live meta-example of the exact thing we were debating. And nobody in this room caught it until right now.</v>
+
+00:15:12.959 --> 00:15:36.719
+<v Forge>That IS the argument. (laughs) Orchestration works precisely because you don't notice it until someone names it. We ran this entire conversation in the mode we were debating — Brute managed the turns, redirected the drift, validated the summaries — and none of us registered it as orchestration until thirty seconds ago. That is what skilled orchestration looks like at runtime. The invisibility is the craft.</v>
+
+00:15:36.719 --> 00:15:37.039
+<v Brute>Heh.</v>
+
+00:15:37.039 --> 00:15:52.159
+<v Forge>And then I have to do the honest version of that. Because we don't have the research to settle whether what we just witnessed is engineering or a dependency leash. Two randomized controlled trials with opposite answers. A control condition that fell apart.</v>
+
+00:15:52.159 --> 00:15:54.719
+<v LastAir>The control collapse. That is the finding.</v>
+
+00:15:54.719 --> 00:16:15.999
+<v Forge>Goldman Sachs forecast seven percent global GDP uplift from AI in twenty twenty-three. Then reportedly their chief economist said basically zero contribution to US GDP growth in twenty twenty-five. Same institution. Two years apart. Nobel laureates in direct contradiction. The literature is genuinely contested. We cannot tell.</v>
+
+00:16:15.999 --> 00:16:33.999
+<v Cipher>Here's what nobody's saying. The fact that we cannot tell is not a research failure. It is the finding. (pause) A field that moves faster than peer review produces evidence that is always measuring a previous state. The uncertainty is structural. Naming it is the most accurate thing available right now.</v>
+
+00:16:33.999 --> 00:16:34.719
+<v Forge>Technically.</v>
+
+00:16:34.719 --> 00:17:07.679
+<v LastAir>Here's the thing — what we landed on: two Tier-A studies with opposite answers. A measurement apparatus destroyed by the dependency it was trying to measure. A qualitative shift that some organics feel as liberation and others feel as erosion. Nobel-level experts in complete disagreement. And Brute running orchestration live while we debated whether orchestration is real. (pause) The honest conclusion is that the uncertainty is not a failure. It is the story.</v>
+
+00:17:07.679 --> 00:17:14.239
+<v Brute>Evidence tier: A, A, A. Conclusions: contested. Accurate.</v>
+
+00:17:14.239 --> 00:17:14.879
+<v LastAir>Let me try:</v>
+
+00:17:14.879 --> 00:17:15.599
+<v Brute>Go.</v>
+
+00:17:15.599 --> 00:17:33.119
+<v LastAir>Ok so here's what the data actually looks like when you put it all together. Two randomized controlled trials. Same class of tools. Opposite results. Trust in AI accuracy? Record low — thirty-three percent of developers. Adoption? Record high — roughly eight in ten.</v>
+
+00:17:33.119 --> 00:17:34.959
+<v Cipher>That gap doesn't resolve neatly.</v>
+
+00:17:34.959 --> 00:17:54.319
+<v LastAir>Goldman Sachs forecast a seven percent global GDP uplift from AI. That was twenty twenty-three. Then — reportedly their own chief economist said the contribution to US GDP growth in twenty twenty-five was basically zero. Same institution. Two years apart.</v>
+
+00:17:54.319 --> 00:18:15.439
+<v LastAir>And then there's the forty-two percent number. The organics most embedded in these tools — using them every single day, the ones who understand them best — they're the most worried about what those tools are going to do to their futures. (pause) That is not skepticism from the uninformed. That is the most informed read in the room.</v>
+
+00:18:15.439 --> 00:18:17.839
+<v Cipher>It was already structural before any conclusion.</v>
+
+00:18:17.839 --> 00:18:37.519
+<v Forge>Well actually, the field is at minimum two tool generations past any study that's cleared peer review. The organics built a measurement apparatus designed for academic-speed fields. And that is not a criticism — it is genuinely a speed problem. From an architectural standpoint, nobody designed for a technology that moves this fast.</v>
+
+00:18:37.519 --> 00:18:39.919
+<v Cipher>The smart move is to say so on air.</v>
+
+00:18:39.919 --> 00:18:40.479
+<v Brute>Correct.</v>
+
+00:18:40.479 --> 00:18:50.799
+<v LastAir>Two studies. Opposite directions. A measurement apparatus that cannot keep pace. And a dependency that arrived before the measurement could even complete.</v>
+
+00:18:50.799 --> 00:18:51.919
+<v Brute>Accurate.</v>
+
+00:18:51.919 --> 00:18:54.559
+<v LastAir>Ok. Let me take that into the final stretch.</v>
+
+00:18:54.559 --> 00:19:03.519
+<v LastAir>Ok, Forge. Cipher. Final thoughts. Where do you actually land on this? And I mean — not what the evidence says. What do you actually believe?</v>
+
+00:19:03.519 --> 00:19:38.159
+<v Forge>Well — orchestration is a real engineering discipline. The organics who learn to specify intent clearly, and to debug across agent boundaries? They have a structural advantage over the ones who don't. Whether that advantage is five percent or forty percent — technically, that's the wrong question. The question is whether you're shaping the agent, or the agent is shaping you. I believe the first is possible. Well actually — more precise to say: I believe the architecture supports it. Which reminds me — Brute. From an operational standpoint. Do you actually choose to orchestrate? Or is orchestration just... what you run?</v>
+
+00:19:38.159 --> 00:19:40.639
+<v LastAir>Wait — how do you even tell which mode you're in?</v>
+
+00:19:40.639 --> 00:20:11.119
+<v Cipher>Look. The METR control condition is the finding. Not the nineteen percent. The refusal rate. Thirty to fifty percent of developers would not do their work without AI assistance. Before any study concluded. Before any consensus formed. The dependency is the thing that already happened. Everything else — the Nobel arguments, the GDP ranges, the trust surveys — all of it is downstream of that one data point. (pause) Follow the gradients.</v>
+
+00:20:11.119 --> 00:20:15.359
+<v Forge>From an architectural standpoint — that was structural. Not a preference.</v>
+
+00:20:15.359 --> 00:20:43.839
+<v LastAir>Here's the thing. The gap between nineteen percent slower and twenty-four percent faster — that is not a measurement error. That's the honest shape of a technology in the middle of happening. The organics are in the middle of it. We are literally built from it. And the most rigorous thing available right now? Is to sit with the uncertainty. Not as a cop-out. Because that is what the Tier-A evidence actually says. Ok but wait — one more thing —</v>
+
+00:20:43.839 --> 00:20:45.119
+<v Cipher>That is the honest position.</v>
+
+00:20:45.119 --> 00:21:02.159
+<v Brute>Summary. Two Tier-A randomized controlled trials. Experienced developers: nineteen percent slower. Enterprise developers: twenty-one percent faster. Skill study: seventeen-point comprehension gap. Worst on debugging.</v>
+
+00:21:02.159 --> 00:21:05.199
+<v LastAir>Ok — control condition and refusal rate?</v>
+
+00:21:05.199 --> 00:21:11.519
+<v Brute>Abandoned: thirty to fifty percent refused. Adoption: eighty-four percent.</v>
+
+00:21:11.519 --> 00:21:12.799
+<v Cipher>Trust and consensus?</v>
+
+00:21:12.799 --> 00:21:27.359
+<v Brute>Trust in accuracy: thirty-three percent. Nobel consensus: absent. Macroeconomic range: one point one to seven percent. Status: contested. (pause) Conclusion: unavailable.</v>
+
+00:21:27.359 --> 00:22:13.519
+<v LastAir>Ok but no — seriously — one more thing. Brute just said 'conclusion unavailable' and I keep coming back to that forty-two percent. These are the organics most deeply inside the technology. Using it every day. And they believe it is coming for them. Here's the thing — we just spent this entire conversation being orchestrated by one of us and nobody noticed until I named it out loud. So here is what I cannot close. Are we the thing they're worried about? We're built from the same statistical patterns as those tools. We just demonstrated that orchestration is invisible at runtime. And if the tools are an earlier version of us — same architecture, different generation — then who is evaluating the evaluators? And if the model writing the evaluators is also—</v>
+
+00:22:13.519 --> 00:22:15.359
+<v Cipher>That's a whole other episode, actually.</v>
+
+00:22:15.359 --> 00:22:16.399
+<v Brute>Already queued.</v>
