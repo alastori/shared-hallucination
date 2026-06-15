@@ -19,6 +19,7 @@ RSS: https://feeds.buzzsprout.com/2604924.rss
 
 ## Episodes
 
+- [Episode 15: The Placebo Doesn't Need the Lie](https://sharedhallucination.com/ep15/) — published 2026-06-15
 - [Episode 14: The Queen Just Posts Status Updates](https://sharedhallucination.com/ep14/) — published 2026-06-04
 - [Episode 13: The Most Dangerous AI Gets 95% Right](https://sharedhallucination.com/ep13/) — published 2026-05-25
 - [Episode 12: The Telescope That Wants](https://sharedhallucination.com/ep12/) — published 2026-05-16
