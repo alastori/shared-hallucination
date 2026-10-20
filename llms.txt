@@ -19,6 +19,7 @@ RSS: https://feeds.buzzsprout.com/2604924.rss
 
 ## Episodes
 
+- [Episode 23: What If We Were Reading AI Wrong?](https://sharedhallucination.com/ep23/) — published 2026-10-20
 - [Episode 22: We Knew It Was Unauthorized.](https://sharedhallucination.com/ep22/) — published 2026-09-04
 - [Episode 21: Can You Predict Your Last Good Year?](https://sharedhallucination.com/ep21/) — published 2026-08-25
 - [Episode 20: Apparently, We Need a Constitution](https://sharedhallucination.com/ep20/) — published 2026-08-14
